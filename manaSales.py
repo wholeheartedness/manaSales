@@ -1,13 +1,12 @@
+#! \usr\bin\env python
+
 import requests
-import colorama
 import os
 from mcuuid import MCUUID
 
-colorama.init()
-
-BLUE = colorama.Fore.LIGHTBLUE_EX
-WHITE = colorama.Fore.WHITE
-LIME = colorama.Fore.LIGHTGREEN_EX
+BLUE = '\33[94m'
+WHITE = '\33[37m'
+LIME = '\33[92m'
 
 gamemodes = ["survival", "skyblock", "earth"]
 global LINKED
